@@ -1,0 +1,38 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    overflow: hidden;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* 定义阿里巴巴字体 */
+@font-face {
+    font-family: "Alibaba-PuHuiTi-Bold";
+    src: url("../fonts/Alibaba-PuHuiTi-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Alibaba-PuHuiTi-Heavy";
+    src: url("../fonts/Alibaba-PuHuiTi-Heavy.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Alibaba-PuHuiTi-Light";
+    src: url("../fonts/Alibaba-PuHuiTi-Light.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Alibaba-PuHuiTi-Medium";
+    src: url("../fonts/Alibaba-PuHuiTi-Medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Alibaba-PuHuiTi-Regular";
+    src: url("../fonts/Alibaba-PuHuiTi-Regular.ttf") format("truetype");
+}
