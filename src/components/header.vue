@@ -26,7 +26,7 @@ export default {
 <style scoped>
     #header {
         width: 100%;
-        height: 3.5rem;
+        height: 100%;
         background-color: white;
         z-index: 3;
         box-shadow: 0 0 20px rgb(0 0 0 / 20%);

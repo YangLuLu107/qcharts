@@ -7,8 +7,8 @@
 </el-container>
 </template>
 <script>
-    import Header from '../components/header.vue'
-    import MainExamples from '../components/mainExamples.vue'
+    import Header from '@/components/header'
+    import MainExamples from '@/components/mainExamples'
     export default {
         components: { Header, MainExamples },
         name: "examples",
@@ -20,12 +20,6 @@
     }
 </script>
 <style scoped>
-    .el-container {
-        height: 100%;
-    }
-    .el-header {
-        padding: 0;
-    }
     .el-main {
         overflow-y: auto;
         padding: 0;

@@ -14,4 +14,10 @@ export default {
 #app {
   height: 100%;
 }
+.el-container {
+    height: 100%;
+}
+.el-header {
+    padding: 0;
+}
 </style>

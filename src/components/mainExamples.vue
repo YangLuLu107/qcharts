@@ -30,7 +30,7 @@
         </el-row>
         <el-row class="sub-content">
           <el-col :span="6">
-            <a target="_blank" href="#" class="detail-link">
+            <a target="_blank" href="/examples/detail" class="detail-link">
               <el-row><img src="../assets/images/line-simple.webp" class="thumbnail"></el-row>
               <el-row class="sub-title"><span>基础折线图</span></el-row>
             </a>
@@ -103,6 +103,7 @@
   .content {
     flex: 1;
     padding: 0 2rem;
+    background-color: #eeedf2;
   }
   .content-title {
     border-bottom: 1px solid #E1E5F2;
@@ -121,13 +122,18 @@
     padding: 0.5rem;
     margin-bottom: 1rem;
     text-align: center;
+  }
+  .sub-content .el-col:hover {
+    
+  }
+  .detail-link {
     transition: all 0.5s;
     transform: scale(1);
   }
-  .sub-content .el-col:hover {
+  .detail-link:hover {
     transform: scale(1.08);
   }
-  .sub-title {
-    
+  .sub-title span {
+    color: #b40000;
   }
 </style>

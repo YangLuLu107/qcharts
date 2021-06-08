@@ -21,7 +21,5 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .el-header {
-    padding: 0;
-  }
+
 </style>
